@@ -27,17 +27,17 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About</a>
+                        <a href="#home" class="nav__link active-link">Home</a>
                     </li>
                     <li class="nav__item">
                         <a href="#skill" class="nav__link">Skill</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#project" class="nav__link">Project</a>
+                        <a href="#about" class="nav__link">About</a>
                     </li>
+                    <!-- <li class="nav__item">
+                        <a href="#project" class="nav__link">Project</a>
+                    </li> -->
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">Contact</a>
                     </li>
@@ -66,7 +66,7 @@
                     <section class="swiper-slide">
                         <div class="home__content grid">
                             <div class="home__group">
-                                <img src="img/home1-img.png" alt="" class="home__img">
+                                <img src="img/home-img.png" alt="" class="home__img">
                                 <div class="home__indicator"></div>
 
                                 <div class="home__details-img">
@@ -95,7 +95,7 @@
                     <section class="swiper-slide">
                         <div class="home__content grid">
                             <div class="home__group">
-                                <img src="img/home2-img.png" alt="" class="home__img">
+                                <img src="img/home4-img.png" alt="" class="home__img">
                                 <div class="home__indicator"></div>
 
                                 <div class="home__details-img">
@@ -154,20 +154,113 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
+        <!-- Skill -->
+        <section class="section" id="skill">
+            <h2 class="section__title">
+                Main skill<br>
+                Front-end Developer
+            </h2>
 
-        <!-- Category -->
-        <section class="section category">
-
+            <div class="skill__container container grid">
+                <div class="skill__data">
+                    <img src="img/skill1-img.png" alt="" class="skill__img">
+                    <h3 class="skill__title">Develop Skill</h3>
+                    <p class="skill__description">저의 basic한 skill들을 소개합니다.</p>
+                </div>
+                <div class="skill__data">
+                    <img src="img/skill2-img.png" alt="" class="skill__img">
+                    <h3 class="skill__title">1.HTML5</h3>
+                    <p class="skill__description">기본적인 구조와, 템플릿 구성요소들, 레이아웃에 대한 기초 지식이 있는 수준입니다.</p>
+                </div>
+                <div class="skill__data">
+                    <img src="img/skill4-img.png" alt="" class="skill__img">
+                    <h3 class="skill__title">2.CSS3</h3>
+                    <p class="skill__description">화면요소를 나타낼 때 위치, flex박스, grid등 색상배치까지 다룰 줄 아는 실력 입니다.</p>
+                </div>
+                <div class="skill__data">
+                    <img src="img/skill3-img.png" alt="" class="skill__img">
+                    <h3 class="skill__title">3.Javascript</h3>
+                    <p class="skill__description">변수,함수,이벤트등 강의등을 통해 기초적인 지식을 보유중이고, 바닐라 자바스크립트를 통해 프로젝트 경험이 있습니다.</p>
+                </div>
+            </div>
         </section>
 
+
         <!-- About -->
-        <section class="section about" id="about"></section>
-        <!-- Skill -->
-        <section class="section skill" id="skill"></section>
+        <section class="section about" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">안녕하세요😊 <br> 신입 웹 개발자 김건호 입니다.</h2>
+                    <p class="about__description">
+                        <span class="about__black">"주어진 임무에 최선을 다하는 스타일"</span> 
+                        <br>어릴때 부터 호기심이 많은 성격에 만들어 보았던 간단한 계산기 프로그램으로 무언가를 만드는 것의 재미를 느끼게 되었고 그때부터 개발자를 꿈꾸게 되었습니다.
+                        계속해서 완성도 높은 코드, 그리고 완성도 높은 UI를 위해 매일 고뇌하는 사람이 되도록 하겠습니다.
+                        잘부탁드립니다.
+                    </p>
+                    <a href="#" class="button">Project-link</a>
+                </div>
+            </div>
+        </section>
+
         <!-- Project -->
+        <section class="section project" id="project"></section>
+
         <!-- Contact -->
+        <footer class="footer" id="contact">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <img src="img/footer-logo.png" alt="" class="footer__logo-img">
+                        Contact
+                    </a>
+                    <p class="footer__description">저의 포트폴리오에 관심이 있거나 <br> 채용문의,취업관련 연락주세요.</p>
+                    <div class="footer__social">
+                        <a href="mailto:svvvs5579@naver.com" target="_blnck" class="footer__social-link">
+                            <!-- Mail -->
+                            <i class='bx bx-mail-send' ></i>
+                        </a>
+
+                        <a href="https://github.com/llvovll89" target="_blnck" class="footer__social-link">
+                            <!-- 깃허브 -->
+                            <i class='bx bxl-github'></i> 
+                        </a>
+
+                        <a href="https://instagram.com" target="_blnck" class="footer__social-link">
+                            <!-- insta -->
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">Secon-Portfolio</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">
+                                Car boy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">
+                                Covid 19
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">
+                                Main
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__copy">&#169; HortFolio. All ritghts reserved 😎</span>
+        </footer>
     </main>
 
+    <!-- Scroll up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bxs-up-arrow scrollup__icon' ></i>
+    </a>
     <!-- Swiper Js -->
     <script src="js/swiper-bundle.min.js"></script>
     <!-- main js -->
